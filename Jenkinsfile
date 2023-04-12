@@ -8,7 +8,7 @@ pipeline {
      }
      stage ('run') {
       steps {
-        sh 'bin/bash test.sh'
+        sh '/bin/bash test.sh'
        }
      }
    }
